@@ -1,21 +1,13 @@
 import './App.css';
+import Header from "../Header/Header"
+import Body from "../Body/Body"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App   .js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Body />
+      
     </div>
   );
 }

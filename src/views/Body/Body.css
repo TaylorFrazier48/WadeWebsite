@@ -1,0 +1,9 @@
+.body-container {
+    background-color: #f0f2e7;
+    margin: 20px 100px;
+}
+
+.body-nav-row {
+    display: flex;
+    justify-content: center;
+}
