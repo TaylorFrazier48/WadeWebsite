@@ -1,6 +1,9 @@
 import NavLink from "../NavLink/NavLink";
 import "./Body.css"
-import Calendar from "../../images/Calendar.jpg"
+import Calendar from "../../images/Calendar.png"
+import Diaper from "../../images/Diaper.png"
+import Bed from "../../images/Bed.webp"
+import Food from "../../images/Food.webp"
 
 function Body() {
     return (
@@ -11,11 +14,11 @@ function Body() {
         <div>
             <div className="body-nav-row">
                 <NavLink image={Calendar} text="Calendar" />  
-                <NavLink text="Poop" />  
+                <NavLink image={Diaper} text="Poop" />  
             </div>
             <div className="body-nav-row">
-                <NavLink/>  
-                <NavLink/>
+                <NavLink image={Bed} text="Sleep Tracker"/>  
+                <NavLink image={Food} text="Eating Tracker"/>
             </div>
         </div>
       </div>

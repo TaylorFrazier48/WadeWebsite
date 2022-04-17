@@ -5,4 +5,13 @@
 
 .header-image {
     width: 100px;
+    height: 120px;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.header-title {
+    color: #f5efd4;
+    text-shadow:  0 0 3px #866d52;
+    position: absolute; bottom:825px;
 }
