@@ -6,7 +6,9 @@ function NavLink(props) {
         <div className="nav-link-background-image" style={{
             backgroundImage: `url(${props.image})`
         }}>
-          <div className="nav-link-text">
+          <div className="nav-link-text" style={{
+            backgroundColor: `${props.color}`
+          }}>
             <span>
                   {props.text}
             </span>
@@ -15,6 +17,6 @@ function NavLink(props) {
       </div>
     );
   }
-  
+
   export default NavLink;
   

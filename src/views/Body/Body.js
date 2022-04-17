@@ -13,12 +13,12 @@ function Body() {
         </div>
         <div>
             <div className="body-nav-row">
-                <NavLink image={Calendar} text="Calendar" />  
-                <NavLink image={Diaper} text="Poop" />  
+                <NavLink color="#ff8296" image={Calendar} text="Calendar" />  
+                <NavLink color="#ffca27" image={Diaper} text="Potty Tracker" />  
             </div>
             <div className="body-nav-row">
-                <NavLink image={Bed} text="Sleep Tracker"/>  
-                <NavLink image={Food} text="Eating Tracker"/>
+                <NavLink color="#c1d92e" image={Bed} text="Sleep Tracker"/>  
+                <NavLink color="#00e1df" image={Food} text="Eating Tracker"/>
             </div>
         </div>
       </div>

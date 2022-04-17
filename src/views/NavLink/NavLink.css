@@ -1,11 +1,15 @@
 .nav-link-background-image {
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .nav-link-text {
@@ -13,10 +17,10 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 25px;
 }
 
 .nav-link-background-image:hover .nav-link-text {

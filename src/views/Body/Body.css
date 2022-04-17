@@ -1,7 +1,10 @@
 .body-container {
     background-color: #f5efd4;
-    margin: 20px 100px;
+    margin: 15px;
+    justify-content: center;
+    width: 850px;
 }
+
 
 .body-nav-row {
     display: flex;
